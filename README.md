@@ -8,4 +8,7 @@ Expected output: {currentTemperature:-17.5}
 Installation & Run
 
 There is a docker file available for docker the project.  Build the image file from the source and run the application. You do not need any database configuration. 
+Issue the following command to create build.
 
+ docker build --pull --rm -f "Dockerfile" -t weatherapi:latest "."  
+ and the run the application in that container
